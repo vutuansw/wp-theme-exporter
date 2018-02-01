@@ -1,0 +1,7 @@
+prepros-6.config
+node_modules/
+package.json
+webpack.mix.js
+mix-manifest.json
+npm-debug.log
+package-lock.json

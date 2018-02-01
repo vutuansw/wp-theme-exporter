@@ -1,0 +1,222 @@
+$primary_color:#3F51B5;
+
+@import 'vars';
+@import 'fields';
+@import 'field-group';
+
+.wp_theme_exporter_form{
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+    overflow: hidden;
+    a{
+        color: $primary_color;
+    }
+}
+
+.wpef-button{
+    &{
+        outline: none;
+        box-shadow: none;
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 8px 20px 8px 20px;
+        border: 3px solid $primary_color;
+        background-color: transparent;
+        color: $primary_color;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        transition: .2s;
+        line-height:1.15em;
+        &:hover,&.active{
+            background-color: $primary_color;
+            color: #fff;
+        }
+        &:focus{
+            box-shadow: none;
+        }
+    }
+
+    i{
+        position: relative;
+        top: 5px;
+        margin-right: 4px;
+    }
+
+    &.wpef-button-primary{
+        background-color: $primary_color;
+        color: #fff;
+        &:hover,&.active{
+            background-color: transparent;
+            color: $primary_color;
+        }
+    }
+    &:disabled{
+        cursor: default;
+        border-color: #ccc!important;
+        background-color: #ccc!important;
+        color: #333!important;
+    }
+}
+
+.wp_theme_exporter_heading{
+    &{
+        background-color: #fff;
+        color: #23282d;
+        padding: 5px 13px 8px 13px;
+        border-radius: 3px 3px 0 0;
+        border-bottom: 3px solid $primary_color;
+    }
+    h1{
+        color: inherit;
+        font-weight: bold;
+        text-shadow: 0px 1px 0px #fff;
+    }
+}
+
+.wp_theme_exporter_footer{
+    &{
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 0px 0px 3px 3px;
+        text-align: right;
+        border-top: 1px solid #eee;
+    }
+    .warning{
+        color: red;
+        margin-right: 8px;
+    }
+    .buttons{
+        display: inline-block;
+    }
+    .wpef-button{
+        &{
+            display: none;
+        }
+        i{
+            position: relative;
+            top: 1px;
+            margin-right: 4px;
+        }
+
+    }
+    .spinner{
+        float: none;
+        margin-top: 6px;
+    }
+    #export{
+        display: inline-block;
+    }
+}
+
+.wdwb-settings{
+    background-color: #fff;
+}
+
+.alert{
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    &.alert-primary{
+        color: #004085;
+        background-color: #cce5ff;
+        border-color: #b8daff;
+    }
+    &.alert-warning{
+        color: #856404;
+        background-color: #fff3cd;
+        border-color: #ffeeba;
+    }
+    &.alert-success {
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+    }
+    &.alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+    }
+}
+
+.wp_theme_exporter_modal{
+    &{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top:0;
+        right: 0;
+        z-index: 999999;
+        display: none;
+    }
+
+    &__layout{
+        background-color: rgba(0,0,0,.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    &__container{
+        width: 500px;
+        max-width: 100%;
+        margin: auto;
+        top: 30%;
+        background-color: #fff;
+        position: relative;
+        z-index: 99;
+        box-shadow: 0px 1px 10px rgba(0,0,0,.4);
+    }
+    &__header{
+        background-color: $primary_color;
+        color: #fff;
+        h3{
+            color: inherit;
+            text-align: center;
+            margin: 0;
+            padding: 15px;
+        }
+        .modal_close{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            color: inherit;
+            right: 0;
+            top: 0;
+            box-shadow: none;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 13px;
+        }
+    }
+    &__body{
+        padding: 30px 30px;
+        ul{
+            margin: 0;
+            li{
+                &{
+                    border-top: 1px solid #eee;
+                    padding: 12px 0;
+                    display: block;
+                }
+                &:first-child{
+                    border-top: none;
+                }
+                span{
+                    font-size: 16px;
+                    float: left;
+                    margin-top: 13px;
+                }
+                a{
+                    float: right;
+                }
+                &:after{
+                    @extend %clearfix;
+                }
+            }
+        }
+    }
+}

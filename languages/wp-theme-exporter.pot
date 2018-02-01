@@ -1,0 +1,201 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-05 13:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/WPThemeExporter.php:48
+msgid "Please wait..."
+msgstr ""
+
+#: includes/WPThemeExporter.php:49 templates/plugin-page.php:117
+msgid "Export now"
+msgstr ""
+
+#: includes/WPThemeExporter.php:50
+msgid "will have been in"
+msgstr ""
+
+#: includes/WPThemeExporter.php:51 templates/plugin-page.php:116
+msgid "Save changes"
+msgstr ""
+
+#: includes/WPThemeExporter.php:52 templates/plugin-page.php:115
+msgid "Reset"
+msgstr ""
+
+#: includes/WPThemeExporter.php:69 includes/WPThemeExporter.php:253
+#: includes/WPThemeExporter.php:283
+msgid "You do not have sufficient permissions to do this action."
+msgstr ""
+
+#: includes/WPThemeExporter.php:73
+msgid "ZipArchive extension was not installed for php."
+msgstr ""
+
+#: includes/WPThemeExporter.php:181
+msgid "Please, select a theme or plugin to export."
+msgstr ""
+
+#: includes/WPThemeExporter.php:191
+msgid "Download"
+msgstr ""
+
+#: includes/WPThemeExporter.php:198
+msgid "Cannot zip file."
+msgstr ""
+
+#: includes/WPThemeExporter.php:201
+msgid "Verify code is invalid."
+msgstr ""
+
+#: includes/WPThemeExporter.php:220
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/WPThemeExporter.php:234
+msgid "Cannot find the file."
+msgstr ""
+
+#: includes/WPThemeExporter.php:238
+msgid "Invalid donwload link."
+msgstr ""
+
+#: includes/WPThemeExporter.php:272
+msgid "Update setting successfully."
+msgstr ""
+
+#: includes/WPThemeExporter.php:287
+msgid "Reset settings successfully."
+msgstr ""
+
+#. Name of the plugin
+#: includes/WPThemeExporter.php:295 includes/WPThemeExporter.php:295
+#: templates/plugin-page.php:8
+msgid "WP Theme Exporter"
+msgstr ""
+
+#: templates/plugin-page.php:23
+msgid "-- Select theme --"
+msgstr ""
+
+#: templates/plugin-page.php:28
+msgid "(current theme)"
+msgstr ""
+
+#: templates/plugin-page.php:37 templates/plugin-page.php:65
+#: templates/plugin-page.php:73 templates/plugin-page.php:81
+#: templates/plugin-page.php:89 templates/plugin-page.php:97
+#: templates/plugin-page.php:105 includes/Admin/Settings.php:39
+msgid "Settings"
+msgstr ""
+
+#: templates/plugin-page.php:40
+msgid "Export plugins"
+msgstr ""
+
+#: templates/plugin-page.php:44 templates/plugin-page.php:55
+msgid "Export"
+msgstr ""
+
+#: templates/plugin-page.php:45
+#, php-format
+msgid ""
+"Select plugins to export (Note: Select a theme bellow to push these plugins "
+"as zipped file in to %s in the theme."
+msgstr ""
+
+#: templates/plugin-page.php:48
+msgid "Select plugins"
+msgstr ""
+
+#: templates/plugin-page.php:51
+msgid "Export theme"
+msgstr ""
+
+#: templates/plugin-page.php:56
+msgid "Select theme to export"
+msgstr ""
+
+#: templates/plugin-page.php:60
+msgid "Plugin ignore extensions"
+msgstr ""
+
+#: templates/plugin-page.php:64
+msgid "Enter ignore extensions (Note: Devide a ignore extension with a comma)."
+msgstr ""
+
+#: templates/plugin-page.php:68
+msgid "Plugin ignore folder"
+msgstr ""
+
+#: templates/plugin-page.php:72 templates/plugin-page.php:88
+msgid "Enter ignore folder (Note: Divide a ignore folder with a comma)."
+msgstr ""
+
+#: templates/plugin-page.php:76
+msgid "Theme ignore extensions"
+msgstr ""
+
+#: templates/plugin-page.php:80
+msgid "Enter ignore extensions (Note: Divide a ignore extension with a comma)."
+msgstr ""
+
+#: templates/plugin-page.php:84
+msgid "Theme ignore folder"
+msgstr ""
+
+#: templates/plugin-page.php:92
+msgid "Plugin folder in theme"
+msgstr ""
+
+#: templates/plugin-page.php:96
+msgid ""
+"Enter a folder name (ex: ../wp-content/themes/yourtheme/<code>plugins</code>"
+"/plugin-toolkit.zip)."
+msgstr ""
+
+#: templates/plugin-page.php:100
+msgid "Clear plugins folder in theme"
+msgstr ""
+
+#: templates/plugin-page.php:104
+msgid ""
+"Remove all file in (../wp-content/themes/yourtheme/<code>plugins</code>/) "
+"before export."
+msgstr ""
+
+#: templates/plugin-page.php:127
+msgid "Exported files"
+msgstr ""
+
+#: includes/Admin/Settings.php:118
+msgid "General"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WP Theme Exporter is a amazing tool helps you export theme and plugin easily."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wp-theme-exporter"
+msgstr ""
+
+#. Author of the plugin
+msgid "WeDesign_WeBuild"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/wedesignwebuild"
+msgstr ""
